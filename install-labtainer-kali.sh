@@ -86,7 +86,7 @@ case "$distrib" in
         ;;
 		Kali)
         echo is kali
-        ./install-docker-kali.sh 
+        ./install-docker-kali.sh
         RESULT=$?
         ;;
 
@@ -107,6 +107,10 @@ if [[ "$RESULT" -eq 0 ]]; then
 EONG
     sudo ./dns-add.py
     ./getinfo.py
+		./fix-bashrc.sh
+		./vm-profile-add.sh
+		./configure-host.sh
+
     sudo reboot
 else
     echo "There was a problem with the installation."

@@ -1,7 +1,8 @@
 wget https://github.com/mfthomps/Labtainers/releases/latest/download/labtainer.tar -O ~/Downloads/labtainer.tar
+
 tar -xf ~/Downloads/labtainer.tar -C ~/
 
-./configure-host.sh
+cp -p install-labtainer-kali.sh ~/labtainer/
+cp -p install-docker-kali.sh ~/labtainer/trunk/setup_scripts/
 
-./~/labtainer/install-labtainer.sh Debian
-
+. ~/labtainer/install-labtainer-kali.sh Debian
