@@ -2,7 +2,8 @@
 
 BASEDIR=$(dirname $0)
 
-echo "setxkbmap gb" >> ~/.bashrc
+setxkbmap gb
+echo "setxkbmap gb" >> ~/.profile
 sudo timedatectl set-timezone Europe/London
 
 ./labtainer/install.sh
