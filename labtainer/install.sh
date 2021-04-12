@@ -13,4 +13,8 @@ cp -pf ${BASEDIR}/install-docker-kali.sh ~/labtainer/trunk/setup_scripts/install
 
 cd ~/labtainer
 
+#sed -i 's/\/home\/student/\/home\/kali/g' trunk/setup_scripts/pull-all.py
+
+sudo ln -s /home/kali /home/student
+
 ./install-labtainer-kali.sh Kali
