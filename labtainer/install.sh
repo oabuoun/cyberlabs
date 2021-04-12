@@ -1,3 +1,7 @@
+#!/bin/bash
+
+BASEDIR=$(dirname $0)
+
 wget https://github.com/mfthomps/Labtainers/releases/latest/download/labtainer.tar -O ~/Downloads/labtainer.tar
 
 mv ~/labtainer ~/labtainer.bak
