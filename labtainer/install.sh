@@ -8,8 +8,8 @@ mv ~/labtainer ~/labtainer.bak
 
 tar -xf ~/Downloads/labtainer.tar -C ~/
 
-cp -pf install-labtainer-kali.sh ~/labtainer/
-cp -pf install-docker-kali.sh ~/labtainer/trunk/setup_scripts/install-docker-kali.sh
+cp -pf ${BASEDIR}/install-labtainer-kali.sh ~/labtainer/
+cp -pf ${BASEDIR}/install-docker-kali.sh ~/labtainer/trunk/setup_scripts/install-docker-kali.sh
 
 cd ~/labtainer
 
