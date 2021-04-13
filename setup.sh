@@ -8,6 +8,10 @@ echo "=== `date` : Setting up the Environment ==="
 echo "=== `date` : Installing Labtainer ==="
 ./labtainer/install.sh
 
+#	Copy Launchers to Home
+echo "=== `date` : Copying Launchers to Home ==="
+cp -rp launchers ~/.launchers
+
 #	Install Services
 echo "=== `date` : Installing thr Services ==="
 ./_services/install.sh
@@ -30,5 +34,7 @@ done
 	echo -n "This script will reboot now, press ENTER to continue";
 	read;
 	echo "OK, See You Later "
+	cd ..
+	rm -rf cyberlabs
 	sudo reboot
 }
