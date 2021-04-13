@@ -4,8 +4,10 @@
 echo "=== `date` : Change Default Keyboard to GB layout ==="
 setxkbmap gb
 
-echo "=== `date` : Adding the GB layout to  .zshrc ==="
+echo "=== `date` : Adding the GB layout to all shells ==="
 echo "setxkbmap gb" >> ~/.zshrc
+echo "setxkbmap gb" >> ~/.profile
+echo "setxkbmap gb" >> ~/.bashrc
 
 #	Change the VM timezone of Europe/London
 echo "=== `date` : Change the VM timezone of Europe/London ==="

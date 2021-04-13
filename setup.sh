@@ -36,5 +36,6 @@ done
 	echo "OK, See You Later "
 	cd ..
 	rm -rf cyberlabs
+	rm -rf ~/Downloads/*
 	sudo reboot
 }
