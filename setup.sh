@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-BASEDIR=$(dirname $0)
+BASEDIR=$(pwd)
 
 #	Change Default Keyboard to GB layout
 setxkbmap gb

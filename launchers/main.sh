@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-BASEDIR=$(dirname $0)
+BASEDIR=$(pwd)
 
 . ${BASEDIR}/labtainer_launcher.sh
 

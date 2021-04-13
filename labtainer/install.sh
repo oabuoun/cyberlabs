@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-BASEDIR=$(dirname $0)
+BASEDIR=$(pwd)
 
 #	Download the last version of Labtainer to ~/Downloads
 wget https://github.com/mfthomps/Labtainers/releases/latest/download/labtainer.tar -O ~/Downloads/labtainer.tar

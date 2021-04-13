@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-BASEDIR=$(dirname $0)
+BASEDIR=$(pwd)
 
 sleep 1
 gnome-terminal --geometry 120x31+150+300 --working-directory=/home/kali/labtainer/labtainer-student -- bash -c "/bin/cat README; exec bash" &
