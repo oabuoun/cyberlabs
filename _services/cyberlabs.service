@@ -1,0 +1,7 @@
+[Unit]
+Description=Start CyberLabs Main Launcher
+After=default.target
+[Service]
+ExecStart=/home/kali/cyberlabs/launchers/main.sh
+[Install]
+WantedBy=default.target

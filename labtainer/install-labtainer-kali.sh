@@ -29,7 +29,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 
 END
-read -p "This script will reboot the system when done, press enter to continue"
+#read -p "This script will reboot the system when done, press enter to continue"
 #
 # ensure labtainer paths in .bashrc
 #
@@ -111,7 +111,7 @@ EONG
 		./vm-profile-add.sh
 		./configure-host.sh
 
-    sudo reboot
+    #sudo reboot
 else
     echo "There was a problem with the installation."
 fi
