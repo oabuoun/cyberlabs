@@ -7,6 +7,9 @@ echo "setxkbmap gb" >> ~/.zshrc
 #	Change the VM timezone of Europe/London
 sudo timedatectl set-timezone Europe/London
 
+#	Tell Zsh where to find the dot files 
+echo "export ZDOTDIR=$HOME" >> /home/kali/.zshenv
+
 #	Install Labtainer
 ./labtainer/install.sh
 
@@ -18,4 +21,5 @@ sudo timedatectl set-timezone Europe/London
 	echo -n "This script will reboot now, press ENTER to continue";
 	read;
 	echo "OK, See You Later "
+	sudo reboot
 }
