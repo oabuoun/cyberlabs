@@ -7,7 +7,7 @@ echo "setxkbmap gb" >> ~/.zshrc
 #	Change the VM timezone of Europe/London
 sudo timedatectl set-timezone Europe/London
 
-#	Tell Zsh where to find the dot files 
+#	Tell Zsh where to find the dot files
 echo "export ZDOTDIR=$HOME" >> /home/kali/.zshenv
 
 #	Install Labtainer
