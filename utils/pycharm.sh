@@ -7,16 +7,14 @@ wget https://download.jetbrains.com/python/pycharm-community-2021.1.tar.gz -O ~/
 
 sudo tar xzf ~/Downloads/pycharm.tar.gz -C /opt/
 
-cd /opt/pycharm-*/bin
-
-echo "=== `date` : Create Shortcut for PyCharm ==="
+echo "=== `date` : Creating Shortcut for PyCharm ==="
 
 cat > ${HOME}/Desktop/PyCharm <<EOL
 #!/usr/bin/env zsh
 
 cd /opt/pycharm-*/bin
 
-sh pycharm.sh
+bash pycharm.sh
 EOL
 
 chmod 755 ${HOME}/Desktop/PyCharm

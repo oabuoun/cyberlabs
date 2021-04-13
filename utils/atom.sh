@@ -13,4 +13,14 @@ sudo apt-get -y install atom
 # Install Atom Beta
 sudo apt-get -y install atom-beta
 
+echo "=== `date` : Creating Shortcut for Atom ==="
+
+cat > ${HOME}/Desktop/Atom <<EOL
+#!/usr/bin/env zsh
+
+bash /usr/bin/atom
+EOL
+
+chmod 755 ${HOME}/Desktop/Atom
+
 exit 0

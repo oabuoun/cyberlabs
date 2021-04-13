@@ -14,3 +14,5 @@ sudo timedatectl set-timezone Europe/London
 #	Tell Zsh where to find the dot files
 echo "=== `date` : Tell Zsh where to find the dot files ==="
 echo "export ZDOTDIR=$HOME" >> /home/kali/.zshenv
+
+mkdir $HOME/cyberspace
