@@ -2,6 +2,6 @@
 
 BASEDIR=$(pwd)
 
-. ${BASEDIR}/labtainer_launcher.sh
+. ${BASEDIR}/launchers/labtainer_launcher.sh
 
 exit 0
