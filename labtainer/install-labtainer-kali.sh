@@ -107,9 +107,9 @@ if [[ "$RESULT" -eq 0 ]]; then
 EONG
     sudo ./dns-add.py
     ./getinfo.py
-		./fix-zshenv.sh
+		./fix-zshrc.sh
 		./vm-profile-add.sh
-		./configure-host.sh
+		#./configure-host.sh
 
     #sudo reboot
 else

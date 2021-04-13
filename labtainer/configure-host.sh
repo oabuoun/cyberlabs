@@ -9,9 +9,7 @@
 
 #echo "$HOME/.doterms.sh &" >> /home/kali/.zprofile
 
-tee -a /home/kali/.zshenv << END
-export ZDOTDIR=$HOME
-END
+echo "export ZDOTDIR=$HOME" >> /home/kali/.zshenv
 
 tee -a /home/kali/.zshrc << END
 if [[ ":$PATH:" != *":./bin:"* ]]; then
