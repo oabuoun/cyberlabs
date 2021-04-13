@@ -12,6 +12,10 @@ echo "=== `date` : Installing Labtainer ==="
 echo "=== `date` : Installing thr Services ==="
 ./_services/install.sh
 
+#	Create Shortcuts
+echo "=== `date` : Create Shortcuts ==="
+./launchers/create_shortcuts.sh
+
 #	Reboot the system so the changes will take effect
 {
 	echo -n "This script will reboot now, press ENTER to continue";
