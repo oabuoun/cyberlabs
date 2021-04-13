@@ -1,7 +1,5 @@
 #!/usr/bin/env zsh
 
-BASEDIR=$(pwd)
-
 #	Change Default Keyboard to GB layout
 setxkbmap gb
 echo "setxkbmap gb" >> ~/.zshrc
@@ -10,10 +8,10 @@ echo "setxkbmap gb" >> ~/.zshrc
 sudo timedatectl set-timezone Europe/London
 
 #	Install Labtainer
-. ${BASEDIR}/labtainer/install.sh
+./labtainer/install.sh
 
 #	Install Services
-. ${BASEDIR}/_services/install.sh
+./_services/install.sh
 
 #	Reboot the system so the changes will take effect
 {

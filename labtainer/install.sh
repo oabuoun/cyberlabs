@@ -26,4 +26,4 @@ cd ${HOME}/labtainer
 sudo ln -s /home/kali /home/student
 
 #	Start installing Labtainer on this VM
-. ${BASEDIR}/labtainer/install-labtainer-kali.sh Kali
+~/labtainer/install-labtainer-kali.sh Kali
