@@ -1,19 +1,15 @@
 #!/usr/bin/env zsh
 
-#	Change Default Keyboard to GB layout
-setxkbmap gb
-echo "setxkbmap gb" >> ~/.zshrc
-
-#	Change the VM timezone of Europe/London
-sudo timedatectl set-timezone Europe/London
-
-#	Tell Zsh where to find the dot files
-echo "export ZDOTDIR=$HOME" >> /home/kali/.zshenv
+#	Setup the Environment
+echo "=== `date` : Setting up the Environment ==="
+./set_env.sh
 
 #	Install Labtainer
+echo "=== `date` : Installing Labtainer ==="
 ./labtainer/install.sh
 
 #	Install Services
+echo "=== `date` : Installing thr Services ==="
 ./_services/install.sh
 
 #	Reboot the system so the changes will take effect
