@@ -31,11 +31,11 @@ POSSIBILITY OF SUCH DAMAGE.
 END
 #read -p "This script will reboot the system when done, press enter to continue"
 #
-# ensure labtainer paths in .bashrc
+# ensure labtainer paths in .zshenv
 #
 here=`pwd`
 export LABTAINER_DIR=$here/trunk
-target=~/.bashrc
+target=~/.zshenv
 grep ":./bin:" $target | grep PATH >>/dev/null
 result=$?
 if [[ result -ne 0 ]];then
@@ -107,7 +107,7 @@ if [[ "$RESULT" -eq 0 ]]; then
 EONG
     sudo ./dns-add.py
     ./getinfo.py
-		./fix-bashrc.sh
+		./fix-zshenv.sh
 		./vm-profile-add.sh
 		./configure-host.sh
 

@@ -14,6 +14,7 @@ tar -xf ~/Downloads/labtainer.tar -C ~/
 #	Copy customised installation scripts (Work on Kali Linux)
 cp -pf ${BASEDIR}/install-labtainer-kali.sh ~/labtainer/
 cp -pf ${BASEDIR}/install-docker-kali.sh ~/labtainer/trunk/setup_scripts/install-docker-kali.sh
+cp -pf ${BASEDIR}/fix-zshrc.sh ~/labtainer/trunk/setup_scripts/fix-zshrc.sh
 
 #	CD into the new labtainer directory to start the installation process
 cd ${HOME}/labtainer

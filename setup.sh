@@ -16,5 +16,8 @@ sudo timedatectl set-timezone Europe/London
 . ${BASEDIR}/_services/install.sh
 
 #	Reboot the system so the changes will take effect
-read -p "This script will reboot now, press enter to continue"
-sudo reboot
+{
+	echo -n "This script will reboot now, press ENTER to continue";
+	read;
+	echo "OK, See You Later "
+}
