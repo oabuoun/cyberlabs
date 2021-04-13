@@ -16,6 +16,15 @@ echo "=== `date` : Installing thr Services ==="
 echo "=== `date` : Create Shortcuts ==="
 ./launchers/create_shortcuts.sh
 
+# Download Utils
+echo "=== `date` : Start Downloading Utils ==="
+for filename in ./utils/*.sh; do
+    [ -e "$filename" ] || continue
+		echo "=== `date` : Running Script `echo $filename` ==="
+		zsh $filename
+    # ... rest of the loop body
+done
+
 #	Reboot the system so the changes will take effect
 {
 	echo -n "This script will reboot now, press ENTER to continue";
