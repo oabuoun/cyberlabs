@@ -1,3 +1,4 @@
+#!/usr/bin/env zsh
 
 # Download Utils
 LAB_DIR=$(pwd)/labs
