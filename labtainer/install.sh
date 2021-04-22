@@ -33,3 +33,7 @@ sudo ln -s /home/kali /home/student
 #	Start installing Labtainer on this VM
 echo "=== `date` : Start installing Labtainer  ==="
 ~/labtainer/install-labtainer-kali.sh Kali
+
+#	Add The Extra Labs in labtainer/labs
+echo "=== `date` : Starting Adding The Extra Labs in labtainer/labs  ==="
+~/labtainer/add-labs.sh
