@@ -33,3 +33,7 @@ sudo ln -s /home/kali /home/student
 #	Start installing Labtainer on this VM
 echo "=== `date` : Start installing Labtainer  ==="
 ~/labtainer/install-labtainer-kali.sh Kali
+
+#	Create /home/kali/.local/share/labtainers/ directory for imodules
+echo "=== `date` : create /home/kali/.local/share/labtainers/ directory for imodule  ==="
+mkdir -p /home/kali/.local/share/labtainers/
