@@ -3,8 +3,12 @@
 BASEDIR=$(pwd)
 
 #	Download the last version of Labtainer to ~/Downloads
-echo "=== `date` : Download the last version of Labtainer to ~/Downloads  ==="
-wget https://github.com/mfthomps/Labtainers/releases/latest/download/labtainer.tar -O ~/Downloads/labtainer.tar
+# echo "=== `date` : Download the last version of Labtainer to ~/Downloads  ==="
+# wget https://github.com/mfthomps/Labtainers/releases/latest/download/labtainer.tar -O ~/Downloads/labtainer.tar
+
+#	Download the last version of Labtainer to ~/Downloads
+echo "=== `date` : Copy labtainer.tar to ~/Downloads  ==="
+cp -rp ${BASEDIR}/labtainer/labtainer.tar -O ~/Downloads/labtainer.tar
 
 #	Backup any old version of Labtainer
 echo "=== `date` : Backup any old version of Labtainer  ==="
