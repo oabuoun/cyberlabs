@@ -37,3 +37,7 @@ echo "=== `date` : Start installing Labtainer  ==="
 #	Create /home/kali/.local/share/labtainers/ directory for imodules
 echo "=== `date` : create /home/kali/.local/share/labtainers/ directory for imodule  ==="
 mkdir -p /home/kali/.local/share/labtainers/
+
+#	Disable labtainer auto update
+echo "=== `date` : Disable labtainer auto update   ==="
+rm -rf /home/kali/labtainer/.doupdate
