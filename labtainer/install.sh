@@ -3,12 +3,8 @@
 BASEDIR=$(pwd)
 
 #	Download the last version of Labtainer to ~/Downloads
-# echo "=== `date` : Download the last version of Labtainer to ~/Downloads  ==="
-# wget https://github.com/mfthomps/Labtainers/releases/latest/download/labtainer.tar -O ~/Downloads/labtainer.tar
-
-#	Download the last version of Labtainer to ~/Downloads
-echo "=== `date` : Copy labtainer.tar to ~/Downloads  ==="
-cp -rp ${BASEDIR}/labtainer/labtainer.tar ~/Downloads/labtainer.tar
+ echo "=== `date` : Download the last version of Labtainer to ~/Downloads  ==="
+ wget https://github.com/mfthomps/Labtainers/releases/latest/download/labtainer.tar -O ~/Downloads/labtainer.tar
 
 #	Backup any old version of Labtainer
 echo "=== `date` : Backup any old version of Labtainer  ==="
@@ -41,7 +37,3 @@ echo "=== `date` : Start installing Labtainer  ==="
 #	Create /home/kali/.local/share/labtainers/ directory for imodules
 echo "=== `date` : create /home/kali/.local/share/labtainers/ directory for imodule  ==="
 mkdir -p /home/kali/.local/share/labtainers/
-
-#	Disable labtainer auto update
-echo "=== `date` : Disable labtainer auto update   ==="
-rm -rf /home/kali/labtainer/.doupdate
