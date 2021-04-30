@@ -7,6 +7,8 @@ wget https://download.jetbrains.com/python/pycharm-community-2021.1.tar.gz -O ~/
 
 sudo tar xzf ~/Downloads/pycharm.tar.gz -C /opt/
 
+sudo chown kali -R /opt/pycharm-community-2021.1
+
 echo "=== `date` : Creating Shortcut for PyCharm ==="
 
 cat > ${HOME}/Desktop/PyCharm <<EOL
