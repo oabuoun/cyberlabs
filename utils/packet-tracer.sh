@@ -11,7 +11,7 @@ sudo apt-get -y install dialog
 
 yes | sudo dpkg -i ~/Downloads/PacketTracer.deb
 
-cat > ${HOME}/Desktop/PacketTracert <<EOL
+cat > ${HOME}/Desktop/PacketTracer <<EOL
 #!/usr/bin/env zsh
 
 bash /usr/local/bin/packettracer
