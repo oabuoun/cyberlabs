@@ -9,6 +9,8 @@ sudo apt-get -y install dialog
 #	Download PACKAGE XYZ
 #echo "=== `date` : Start Downloading PACKAGE XYZ ==="
 
+yes | sudo dpkg -i ~/Downloads/PacketTracer.deb
+
 cat > ${HOME}/Desktop/PacketTracert <<EOL
 #!/usr/bin/env zsh
 
