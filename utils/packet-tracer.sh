@@ -18,7 +18,7 @@ bash /usr/local/bin/packettracer
 
 EOL
 
-chmod 755 ${HOME}/Desktop/PacketTracert
+chmod 755 ${HOME}/Desktop/PacketTracer
 
 EOF
 
