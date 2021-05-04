@@ -7,4 +7,6 @@ wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb -O ~/Do
 
 yes | sudo dpkg -i ~/Downloads/teamviewer_amd64.deb
 
+sudo apt-get install -fy
+
 exit 0
