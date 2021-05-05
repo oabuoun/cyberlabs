@@ -1,14 +1,12 @@
 #!/usr/bin/env zsh
 
 #	Download PACKAGE XYZ
-echo "=== `date` : Start Downloading Jenkins ==="
+echo "=== `date` : Start Downloading Ansible ==="
 
-git clone https://github.com/oabuoun/jenkins-blueocean-launcher.git ~/devsecops/jenkins
+sudo apt-add-repository ppa:ansible/ansible
 
-cd ~/devsecops/jenkins
+sudo apt update
 
-docker-compose build
-
-docker-compose pull
+sudo apt install -y ansible
 
 exit 0
