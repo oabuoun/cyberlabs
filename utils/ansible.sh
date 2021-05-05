@@ -3,7 +3,7 @@
 #	Download PACKAGE XYZ
 echo "=== `date` : Start Downloading Ansible ==="
 
-sudo apt-add-repository ppa:ansible/ansible
+sudo apt-add-repository -y ppa:ansible/ansible
 
 sudo apt update
 
