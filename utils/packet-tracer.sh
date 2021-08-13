@@ -9,14 +9,16 @@ sudo apt-get -y install dialog
 #	Download PACKAGE XYZ
 #echo "=== `date` : Start Downloading PACKAGE XYZ ==="
 
-cat > ${HOME}/Desktop/PacketTracert <<EOL
+yes | sudo dpkg -i ~/Downloads/PacketTracer.deb
+
+cat > ${HOME}/Desktop/PacketTracer <<EOL
 #!/usr/bin/env zsh
 
 bash /usr/local/bin/packettracer
 
 EOL
 
-chmod 755 ${HOME}/Desktop/PacketTracert
+chmod 755 ${HOME}/Desktop/PacketTracer
 
 EOF
 

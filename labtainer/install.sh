@@ -8,7 +8,7 @@ BASEDIR=$(pwd)
 
 #	Download the last version of Labtainer to ~/Downloads
 echo "=== `date` : Copy labtainer.tar to ~/Downloads  ==="
-cp -rp ${BASEDIR}/labtainer/labtainer.tar ~/Downloads/labtainer.tar
+cp -rp ${BASEDIR}/labtainer/labtainer*.tar ~/Downloads/labtainer.tar
 
 #	Backup any old version of Labtainer
 echo "=== `date` : Backup any old version of Labtainer  ==="

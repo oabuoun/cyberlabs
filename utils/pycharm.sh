@@ -3,11 +3,11 @@
 #	Download PACKAGE XYZ
 echo "=== `date` : Start Downloading PyCharm ==="
 
-wget https://download.jetbrains.com/python/pycharm-community-2021.1.tar.gz -O ~/Downloads/pycharm.tar.gz
+wget https://download-cf.jetbrains.com/python/pycharm-community-2021.1.1.tar.gz -O ~/Downloads/pycharm.tar.gz
 
 sudo tar xzf ~/Downloads/pycharm.tar.gz -C /opt/
 
-sudo chown kali -R /opt/pycharm-community-2021.1
+sudo chown kali -R /opt/pycharm-*
 
 echo "=== `date` : Creating Shortcut for PyCharm ==="
 
