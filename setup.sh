@@ -5,8 +5,8 @@ echo "=== `date` : Setting up the Environment ==="
 ./set_env.sh
 
 #	Install Labtainer
-echo "=== `date` : Installing Labtainer ==="
-./labtainer/install.sh
+#echo "=== `date` : Installing Labtainer ==="
+#./labtainer/install.sh
 
 #	Copy Launchers to Home
 echo "=== `date` : Copying Launchers to Home ==="
