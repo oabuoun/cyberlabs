@@ -11,7 +11,7 @@ sudo apt-get update
 # Install Atom
 sudo apt-get -y install atom
 # Install Atom Beta
-sudo apt-get -y install atom-beta
+#sudo apt-get -y install atom-beta
 
 echo "=== `date` : Creating Shortcut for Atom ==="
 
