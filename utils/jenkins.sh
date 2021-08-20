@@ -3,9 +3,9 @@
 #	Download PACKAGE XYZ
 echo "=== `date` : Start Downloading Jenkins ==="
 
-git clone https://github.com/oabuoun/jenkins-blueocean-launcher.git ~/devsecops/jenkins
+git clone https://github.com/oabuoun/jenkins-blueocean-launcher.git ~/cyber/tools/jenkins
 
-cd ~/devsecops/jenkins
+cd ~/cyber/tools/jenkins
 
 docker-compose build
 

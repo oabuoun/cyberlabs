@@ -3,9 +3,9 @@
 #	Download PACKAGE XYZ
 echo "=== `date` : Start Downloading MySQL ==="
 
-git clone https://github.com/oabuoun/phpmyadmin-mysql.git ~/devsecops/mysql
+git clone https://github.com/oabuoun/phpmyadmin-mysql.git ~/cyber/tools/mysql
 
-cd ~/devsecops/mysql
+cd ~/cyber/tools/mysql
 
 docker-compose build
 

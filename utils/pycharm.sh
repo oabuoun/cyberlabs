@@ -3,7 +3,8 @@
 #	Download PACKAGE XYZ
 echo "=== `date` : Start Downloading PyCharm ==="
 
-wget https://download-cf.jetbrains.com/python/pycharm-community-2021.1.1.tar.gz -O ~/Downloads/pycharm.tar.gz
+wget https://download-cdn.jetbrains.com/python/pycharm-community-2021.2.tar.gz -O ~/Downloads/pycharm.tar.gz
+
 
 sudo tar xzf ~/Downloads/pycharm.tar.gz -C /opt/
 

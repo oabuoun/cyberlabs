@@ -9,16 +9,16 @@ echo "=== `date` : Setting up the Environment ==="
 #./labtainer/install.sh
 
 #	Copy Launchers to Home
-echo "=== `date` : Copying Launchers to Home ==="
-cp -rp launchers ~/.launchers
+# echo "=== `date` : Copying Launchers to Home ==="
+# cp -rp launchers ~/.launchers
 
 #	Install Services
-echo "=== `date` : Installing thr Services ==="
-./_services/install.sh
+#echo "=== `date` : Installing thr Services ==="
+#./_services/install.sh
 
 #	Create Shortcuts
-echo "=== `date` : Create Shortcuts ==="
-./launchers/create_shortcuts.sh
+# echo "=== `date` : Create Shortcuts ==="
+# ./launchers/create_shortcuts.sh
 
 # Download Utils
 echo "=== `date` : Start Downloading Utils ==="
