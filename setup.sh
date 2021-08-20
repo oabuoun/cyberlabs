@@ -29,6 +29,10 @@ for filename in ./utils/*.sh; do
     # ... rest of the loop body
 done
 
+#	Copy Scripts to Cyber
+echo "=== `date` : Copying Scripts to Cyber ==="
+cp -rp scripts ~/cyber/scripts
+
 #	Reboot the system so the changes will take effect
 {
 	echo -n "This script will reboot now, press ENTER to continue";
