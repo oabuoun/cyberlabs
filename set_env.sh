@@ -18,3 +18,7 @@ echo "=== `date` : Tell Zsh where to find the dot files ==="
 echo "export ZDOTDIR=$HOME" >> /home/kali/.zshenv
 
 mkdir -p $HOME/cyber/tools
+
+mkdir -p $HOME/cyber/projects
+
+git clone https://github.com/oabuoun/course.git $HOME/cyber/course

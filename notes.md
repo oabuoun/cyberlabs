@@ -5,6 +5,9 @@
 
 ##  Atom
 
+### Plugins
+-	teletype
+
 ##  Microsoft Teams
 
 ##  PyCharm
@@ -26,5 +29,3 @@ sudo chown kali -R /opt/pycharm-community-2021.1
 -   
 
 ##  Team Viewer
-
-
